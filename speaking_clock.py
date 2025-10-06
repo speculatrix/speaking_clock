@@ -264,14 +264,8 @@ def clock_app():
             elif KEY_STROKE == '?' or KEY_STROKE == 'h':
                 print_help()
 
-            #elif KEY_STROKE == 'l':
-                #DBG_LEVEL and print('list')
-                #print('list')
-                #print(', '.join(chan_names))
-
             elif KEY_STROKE == 't':
                 play_time()
-
 
             else:
                 print('Unknown key')
